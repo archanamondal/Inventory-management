@@ -1,8 +1,42 @@
-# React + Vite
+# Dynamic Inventory Management Table
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Simple inventory management app using React.js and React router v7. 
 
-Currently, two official plugins are available:
+### 1. Local Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/archanamondal/Inventory-management.git
+cd Inventory-management
+```
+
+#### Step 2: Install Dependencies
+
+```bash
+npm install
+```
+
+#### Step 3: Run
+
+```bash
+npm run dev
+```
+
+### Features of the project
+
+ - The app should display a table of items
+ - Add new items to the inventory.
+ - Edit and delete existing items.
+ - Filter the table by item category.
+ - Sort items by quantity.
+ - Highlight low-stock items (e.g., quantity below 10).
+
+
+### Future Scope of the project
+
+ - Input/Form validation
+ - Param validation
+ - Error handling
+ - User authentication
+
